@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import MenuItem from '../MenuItem/MenuItem.component'
 import './Directory.style.scss'
 
-const Directory = () => {
+const Directory = () =>{
 
     const [sections, setSections] = useState([
         {
